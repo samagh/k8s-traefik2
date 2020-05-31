@@ -1,0 +1,13 @@
+# Instalamos el traefik2 ingress
+01-traefik2-rbac.yaml
+02-traefik2-daemonset.yaml
+
+# Creamos un Deploy / Service de prueba para validar el ingress http://192.168.1.52.nip.io/notls y https://192.168.1.52.nip.io/tls
+03-traefik2-demo-deploy.yaml
+04-traefik2-demo-service.yaml
+05-traefik2-demo-ingress.yaml
+
+# Exponemos el kubernetes dashboard sobre https://dashboard.192.168.1.52.nip.io
+06-traefik2-kubedashboard-ingress.yaml
+
+
